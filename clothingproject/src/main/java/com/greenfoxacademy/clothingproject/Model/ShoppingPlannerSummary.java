@@ -21,6 +21,6 @@ public class ShoppingPlannerSummary {
     @Column
     Float unit_prise;
 
-    
+
 
 }
