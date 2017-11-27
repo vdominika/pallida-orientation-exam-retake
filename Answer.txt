@@ -1,0 +1,12 @@
+Why would you declare your class as an abstract class?
+
+Absrtact calsses are the classes which contains one or more abstract methods. 
+An abstract method is a method, which may not be implemented, just it is declared.
+By using abstract classes, we can inherit the implementation of other (non-abstract) methods, what we can't 
+can't do that with interfaces - an interface cannot provide any method implementations.
+
+For example if we are talking about animals, we can define methods, what all of them are
+doing, ex. sleep and eat. Allof them are making noise as weel, but that noise is not the
+same (the cats say "miau miau", while the dogs are barking etc.). If we are using abstract
+classes, we can easily implement the common methods, like eating and sleeping and also are
+able to differentiate between the different noises what they are making.  
