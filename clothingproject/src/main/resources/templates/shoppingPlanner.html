@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://java.sun.com/xml/ns/persistence/orm">
 <head>
-    <meta charset="UTF-8">
-    <title>Summary</title>
+    <meta charset="UTF-8" />
+    <title>Shopping planner</title>
 </head>
 <body>
 <h1>Green Fox Fashion Web Store</h1>
-<h2>Summary</h2>
+<form>
+    <select name=?>Please select an Item name!</select>
+    <select name=?>Please select a size!</select>
+</form>
+<form>
+    <select name=?>Please enter !</select>
+</form>
+<button type="submit" value="Submit">GET TOTAL</button>
+
 <table th:if="${warehouse}">
     <tr>
         <td>Item name</td>
@@ -16,6 +24,6 @@
         <td>Unit price</td>
     </tr>
 </table>
-<a href="/shoppingplanner">Back to main</a>
+
 </body>
 </html>
