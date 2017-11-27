@@ -5,12 +5,12 @@ import java.util.List;
 public class ApiResponse {
 
     String result;
-    List<ShoppingPlanner> clothes;
+    List<Warehouse> clothes;
 
     public ApiResponse() {
     }
 
-    public ApiResponse(List<ShoppingPlanner> clothes) {
+    public ApiResponse(List<Warehouse> clothes) {
         this.result = "ok";
         this.clothes = clothes;
     }
@@ -23,11 +23,11 @@ public class ApiResponse {
         this.result = result;
     }
 
-    public List<ShoppingPlanner> getClothes() {
+    public List<Warehouse> getClothes() {
         return clothes;
     }
 
-    public void setClothes(List<ShoppingPlanner> clothes) {
+    public void setClothes(List<Warehouse> clothes) {
         this.clothes = clothes;
     }
 }

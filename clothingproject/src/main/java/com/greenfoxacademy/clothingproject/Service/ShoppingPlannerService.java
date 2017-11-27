@@ -16,10 +16,12 @@ public class ShoppingPlannerService {
 
     public List<Warehouse> getAll() {
         List<Warehouse> clothes = new ArrayList<>();
-        repo.findAll()
-                .forEach(clothes::add);
+        repo.findAll();
         return clothes;
+    }
 
-
-
+    public List<Warehouse> getSelected() {
+        List<Warehouse> clothes = new ArrayList<>();
+        return clothes;
+    }
 }

@@ -21,12 +21,15 @@ public class MainController {
     ShoppingPlannerService shoppingPlannerService;
 
     @GetMapping("/warehouse")
-    public List<> getAllTopics() {
+    public List<Warehouse> getAllTopics() {
+
         return shoppingPlannerService.getAll();
     }
 
     @PostMapping("/warehouse/summary")
-    return ShoppingPlannerSummary;
+    public List<Warehouse> findAllselected(){
+        return shoppingPlannerService.getSelected();
+    };
 
     @GetMapping("/warehouse/query")
     return ApiResponse;
